@@ -25,3 +25,9 @@ fun main(args : Array<String>){
     st.print()
 
 }
+
+/* OUTPUT:
+NAME: Hridoy
+ID: 15010
+SESSION: 2014-2015
+*/
