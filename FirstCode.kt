@@ -1,12 +1,12 @@
 
 fun main(args : Array<String>){
 
-    println("Hello"); // it is no essential to end statements with semicolon (;)
+    println("Hello"); // it is not essential to end statements with semicolon (;)
     println("Hello") // it is also right way and better way i think
 
-    // if we want to write two statements in a line then we need to separate them with semicolon
+    // if we want to write two statements in same line then we need to separate them with semicolon
 
-    // CREATING VARIABLES BY SPECIFIC VARIABLE TYPE
+    // CREATING VARIABLES BY SPECIFIC VARIABLE TYPES
     var st : String = "I am string"
     var int : Int = 5
     var fl : Float = 4.4f
@@ -16,7 +16,7 @@ fun main(args : Array<String>){
     ch = 'B' // modify the value
     println(ch)
 
-    // creating variables without specifying variable types and compiler takes care of its type
+    // creating variables without specifying variable types and the compiler will convert it with assigning value
     var name = "Nochiketa charkraborty"
     var value = 23
 
@@ -24,6 +24,7 @@ fun main(args : Array<String>){
     val const = 77 // or val const : Int = 77
     // const = 55; ERROR BECAUSE OF CONSTANT VARIABLE
 
+    // in Kotlin for mutable variable use (var) and for immutable variable use (val)
 
     // ARRAY OF UNSPECIFIED AND DIFFERENT VARIABLE TYPES
     var array1 = arrayOf(1, 2.3, "Hi", 3.22, 1, 'A')
