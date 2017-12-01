@@ -11,6 +11,7 @@ fun main(args : Array<String>){
     var int : Int = 5
     var fl : Float = 4.4f
     var dou : Double = 23.33
+    
     var ch : Char = 'A'
     println("\n"+ch)
     ch = 'B' // modify the value
@@ -37,6 +38,7 @@ fun main(args : Array<String>){
     // ARRAY OF SPECIFIED AND SAME VARIABLE TYPE
     var array2 : Array<String> = arrayOf("Hridoy", "Robin", "Fahad")
 
+    // PRINTING array2 VALUES
     println("\nArray2: ")
     for (x in array2){
         println(x)
